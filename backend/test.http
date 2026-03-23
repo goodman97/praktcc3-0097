@@ -1,0 +1,26 @@
+
+GET http://localhost:3000/notes
+
+### GET note berdasarkan id
+GET http://localhost:3000/notes/1
+
+### post buat nambah note
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+  "judul": "Test REST Client",
+  "isi": "Ini dari REST Client"
+}
+
+### PUT buat update note
+PUT http://localhost:3000/notes/1
+Content-Type: application/json
+
+{
+  "judul": "Update dari REST",
+  "isi": "Data sudah diubah"
+}
+
+### DELETE menghapus note
+DELETE http://localhost:3000/notes/1
