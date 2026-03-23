@@ -1,4 +1,4 @@
-//require('dotenv').config();
+require('dotenv').config();
 const mysql = require('mysql2');
 
 const db = mysql.createConnection({
@@ -13,8 +13,8 @@ const db = mysql.createConnection({
   host: 'localhost', 
   user: 'root',
   password: '', 
-  database: 'notes_app' });*/
-
+  database: 'notes_app' });
+*/
 db.connect((err) => {
   if (err) {
     console.error('Koneksi ke database gagal:', err);
