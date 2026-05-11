@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/notes';
+const API_URL = 'https://t3-tcc-fe-notes-123230097-118865344431.us-central1.run.app/';
 
 const noteForm = document.getElementById('noteForm');
 const noteId = document.getElementById('noteId');
